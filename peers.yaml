@@ -1,0 +1,94 @@
+AS56393:
+    description: Frys-IX route servers
+    import: AS-FRYS-IX-CONNECTED
+    export: AS202585:AS-NICK
+
+AS41441:
+    description: SPEED-IX route server 
+    import: AS-IX
+    export: AS202585:AS-NICK
+
+AS212855:
+    description: LUJE.net
+    import: AS-LUJE
+    export: AS202585:AS-NICK
+
+AS13335:
+    description: Cloudflare
+    import: AS-CLOUDFLARE
+    export: AS202585:AS-NICK
+
+AS31477:
+    description: Duocast
+    import: AS-DUOCAST
+    export: AS202585:AS-NICK
+
+AS6939:
+    description: Hurricane Electric
+    import: AS-HURRICANE
+    export: AS202585:AS-NICK
+
+AS49627:
+    description: Speakup
+    import: AS49627
+    export: AS202585:AS-NICK
+
+AS212635:
+    description: Jurrian van Iersel
+    import: AS212635
+    export: AS202585:AS-NICK
+
+AS1101:
+    description: Not SURF
+    import: AS1101
+    export: AS202585:AS-NICK
+
+AS1104:
+    description: NIKHEF
+    import: AS1104
+    export: AS202585:AS-NICK
+
+AS202413:
+    description: LUJE Labs
+    import: AS202413
+    export: AS202585:AS-NICK
+
+AS25596:
+    description: Tweak
+    import: AS25596
+    export: AS202585:AS-NICK
+
+AS206238:
+    description: Freedom Internet
+    import: AS-FREEDOM
+    export: AS202585:AS-NICK
+
+AS57866:
+    description: Fusix
+    import: AS57866
+    export: AS202585:AS-NICK
+
+AS200132:
+    description: Netone
+    import: AS200132
+    export: AS202585:AS-NICK
+
+AS32934:
+    description: Facebook
+    import: AS-FACEBOOK
+    export: AS202585:AS-NICK
+
+AS1103:
+    description: SURF
+    import: AS-SURF
+    export: AS202585:AS-NICK
+
+AS213028:
+    description: DDW
+    import: AS213028
+    export: AS202585:AS-NICK
+
+AS32590:
+    description: Valve
+    import: AS32590
+    export: AS202585:AS-NICK
