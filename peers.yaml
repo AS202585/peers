@@ -92,3 +92,8 @@ AS32590:
     description: Valve
     import: AS32590
     export: AS202585:AS-NICK
+
+AS24940:
+    description: Hetzner
+    import: AS24940
+    export: AS202585:AS-NICK
