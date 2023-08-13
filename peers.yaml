@@ -97,3 +97,8 @@ AS24940:
     description: Hetzner
     import: AS24940
     export: AS202585:AS-NICK
+
+AS15169:
+    description: Google
+    import: AS-GOOGLE
+    export: AS202585:AS-NICK
