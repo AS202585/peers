@@ -107,3 +107,8 @@ AS8283:
     description: Coloclue
     import: AS8283:AS-COLOCLUE
     export: AS202585:AS-NICK
+
+AS16276:
+    description: OVH
+    import: AS16276
+    export: AS202585:AS-NICK
