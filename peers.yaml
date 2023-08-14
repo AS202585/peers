@@ -102,3 +102,8 @@ AS15169:
     description: Google
     import: AS-GOOGLE
     export: AS202585:AS-NICK
+
+AS8283:
+    description: Coloclue
+    import: AS8283:AS-COLOCLUE
+    export: AS202585:AS-NICK
