@@ -112,3 +112,8 @@ AS16276:
     description: OVH
     import: AS16276
     export: AS202585:AS-NICK
+
+AS48635:
+    description: CLDIN
+    import: AS48635
+    export: AS202585:AS-NICK
