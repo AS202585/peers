@@ -117,3 +117,8 @@ AS48635:
     description: CLDIN
     import: AS48635
     export: AS202585:AS-NICK
+
+AS20847:
+    description: Previder
+    import: AS20847
+    export: AS202585:AS-NICK
