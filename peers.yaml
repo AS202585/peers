@@ -53,11 +53,6 @@ AS202413:
     import: AS202413
     export: AS202585:AS-NICK
 
-AS25596:
-    description: Tweak
-    import: AS25596
-    export: AS202585:AS-NICK
-
 AS206238:
     description: Freedom Internet
     import: AS-FREEDOM
