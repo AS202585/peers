@@ -122,3 +122,8 @@ AS20847:
     description: Previder
     import: AS20847
     export: AS202585:AS-NICK
+
+AS51088:
+    description: A2B IP B.V.
+    import: AS51088
+    export: AS202585:AS-NICK
