@@ -65,8 +65,10 @@ AS57866:
 
 AS200132:
     description: Netone
-    import: AS200132
+    import: AS200132:AS-NETONE-NL
     export: AS202585:AS-NICK
+    not_on:
+      - frysix
 
 AS32934:
     description: Facebook
