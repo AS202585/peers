@@ -48,11 +48,6 @@ AS1104:
     import: AS1104
     export: AS202585:AS-NICK
 
-AS202413:
-    description: LUJE Labs
-    import: AS202413
-    export: AS202585:AS-NICK
-
 AS206238:
     description: Freedom Internet
     import: AS-FREEDOM
@@ -77,7 +72,7 @@ AS32934:
 
 AS1103:
     description: SURF
-    import: AS-SURF
+    import: AS-SURFNET
     export: AS202585:AS-NICK
 
 AS213028:
@@ -92,7 +87,7 @@ AS32590:
 
 AS24940:
     description: Hetzner
-    import: AS24940
+    import: AS-HETZNER
     export: AS202585:AS-NICK
 
 AS15169:
