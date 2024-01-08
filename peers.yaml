@@ -119,3 +119,8 @@ AS51088:
     description: A2B IP B.V.
     import: AS51088:AS-A2B
     export: AS202585:AS-NICK
+
+AS14061:
+   description: DigitalOcean
+   import: AS14061
+   export: AS202585:AS-NICK
