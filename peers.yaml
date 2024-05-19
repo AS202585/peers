@@ -4,8 +4,13 @@ AS56393:
     export: AS202585:AS-NICK
 
 AS41441:
-    description: SPEED-IX route server 
+    description: SPEED-IX route servers 
     import: AS-IX
+    export: AS202585:AS-NICK
+
+AS56584:
+    description: InterIX route servers
+    import: AS56584
     export: AS202585:AS-NICK
 
 AS212855:
