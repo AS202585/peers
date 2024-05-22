@@ -10,7 +10,7 @@ AS41441:
 
 AS56584:
     description: InterIX route servers
-    import: as-interix
+    import: AS-INTERIX
     export: AS202585:AS-NICK
 
 AS212855:
