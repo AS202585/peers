@@ -129,3 +129,8 @@ AS14061:
    description: DigitalOcean
    import: AS14061
    export: AS202585:AS-NICK
+
+AS211358:
+   description: IPv6GO
+   import: AS211358:AS-IPV6GO
+   export: AS202585:AS-NICK
