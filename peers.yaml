@@ -129,3 +129,8 @@ AS211358:
    description: IPv6GO
    import: AS211358:AS-IPV6GO
    export: AS202585:AS-NICK
+
+AS201290:
+   description: BlackGATE
+   import: AS201290:AS-BLACKGATE
+   export: AS202585:AS-NICK
