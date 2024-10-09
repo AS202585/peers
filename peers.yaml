@@ -139,3 +139,8 @@ AS213052:
    description: Bram Wittendorp
    import: AS213052
    export: AS202585:AS-NICK
+
+AS214380: 
+    description: Tim de Boer trading as tim427.net
+    import: AS214380
+    export: AS202585:AS-NICK
