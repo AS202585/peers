@@ -144,3 +144,8 @@ AS214380:
     description: Tim de Boer trading as tim427.net
     import: AS214380
     export: AS202585:AS-NICK
+
+AS215842:
+    description: Erwin Paal
+    import: AS215842
+    export: AS202585:AS-NICK
