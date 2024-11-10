@@ -149,3 +149,8 @@ AS215842:
     description: Erwin Paal
     import: AS215842
     export: AS202585:AS-NICK
+
+AS36428:
+    description: Jakub Krsa
+    import: AS36428
+    export: AS202585:AS-NICK
