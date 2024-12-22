@@ -154,3 +154,8 @@ AS214757:
     description: Jakub Krsa
     import: AS214757
     export: AS202585:AS-NICK
+
+AS215296:
+    description: Raoul Brouns
+    import: AS215296:AS-RAOULBROUNS
+    export: AS202585:AS-NICK
