@@ -20,7 +20,7 @@ AS212855:
 
 AS13335:
     description: Cloudflare
-    import: AS-CLOUDFLARE
+    import: AS13335:AS-CLOUDFLARE
     export: AS202585:AS-NICK
 
 AS31477:
@@ -45,34 +45,32 @@ AS212635:
 
 AS1101:
     description: Not SURF
-    import: AS1101
+    import: AS1101:AS-NOTSURFNET
     export: AS202585:AS-NICK
 
 AS1104:
     description: NIKHEF
-    import: AS1104
+    import: AS1104:AS-NIKHEF
     export: AS202585:AS-NICK
 
 AS206238:
     description: Freedom Internet
-    import: AS-FREEDOM
+    import: AS206238:AS-FREEDOM
     export: AS202585:AS-NICK
 
 AS200132:
     description: Netone
     import: AS200132:AS-NETONE-NL
     export: AS202585:AS-NICK
-    not_on:
-      - frysix
 
 AS32934:
     description: Facebook
-    import: AS-FACEBOOK
+    import: AS32934:AS-FACEBOOK
     export: AS202585:AS-NICK
 
 AS1103:
     description: SURF
-    import: AS-SURFNET
+    import: AS1103:AS-SURFNET
     export: AS202585:AS-NICK
 
 AS213028:
@@ -92,7 +90,7 @@ AS24940:
 
 AS15169:
     description: Google
-    import: AS-GOOGLE
+    import: AS15169:AS-GOOGLE
     export: AS202585:AS-NICK
 
 AS8283:
