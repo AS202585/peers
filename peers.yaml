@@ -58,11 +58,6 @@ AS206238:
     import: AS206238:AS-FREEDOM
     export: AS202585:AS-NICK
 
-AS200132:
-    description: Netone
-    import: AS200132:AS-NETONE-NL
-    export: AS202585:AS-NICK
-
 AS32934:
     description: Facebook
     import: AS32934:AS-FACEBOOK
