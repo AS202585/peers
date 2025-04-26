@@ -152,3 +152,8 @@ AS215296:
     description: Raoul Brouns
     import: AS215296:AS-RAOULBROUNS
     export: AS202585:AS-NICK
+
+AS211623:
+    description: NAML B.V.
+    import: AS211623:AS-NAML
+    export: AS202585:AS-NICK
