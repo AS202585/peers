@@ -102,6 +102,9 @@ AS48635:
     description: CLDIN
     import: AS48635
     export: AS202585:AS-NICK
+    not_on:
+      - speedix
+      - interix
 
 AS20847:
     description: Previder
@@ -147,11 +150,16 @@ AS214757:
     description: Jakub Krsa
     import: AS214757
     export: AS202585:AS-NICK
+    not_on:
+      - interix
 
 AS215296:
     description: Raoul Brouns
     import: AS215296:AS-RAOULBROUNS
     export: AS202585:AS-NICK
+    not_on:
+      - speedix
+      - interix
 
 AS211623:
     description: NAML B.V.
