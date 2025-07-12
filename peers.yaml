@@ -165,3 +165,9 @@ AS211623:
     description: NAML B.V.
     import: AS211623:AS-NAML
     export: AS202585:AS-NICK
+
+AS215473:
+    description: Elimalko Saado
+    import: AS215473
+    export: AS202585:AS-NICK
+    
