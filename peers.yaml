@@ -170,4 +170,8 @@ AS215473:
     description: Elimalko Saado
     import: AS215473
     export: AS202585:AS-NICK
-    
+
+AS6777:
+    description: AMS-IX Routeservers
+    import: AS6777
+    export: AS202585:AS-NICK
