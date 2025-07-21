@@ -175,3 +175,8 @@ AS6777:
     description: AMS-IX Routeservers
     import: AS6777
     export: AS202585:AS-NICK
+
+AS25220:
+    description: equada GmbH - GlobalNOC
+    import: AS25220:AS-GLOBALNOC
+    export: AS202585:AS-NICK
