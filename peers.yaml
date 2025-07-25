@@ -173,7 +173,7 @@ AS215473:
 
 AS6777:
     description: AMS-IX Routeservers
-    import: AS6777
+    import: AS6777:AS-AMS-IX-RS 
     export: AS202585:AS-NICK
 
 AS25220:
