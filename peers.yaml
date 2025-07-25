@@ -180,8 +180,3 @@ AS25220:
     description: equada GmbH - GlobalNOC
     import: AS25220:AS-GLOBALNOC
     export: AS202585:AS-NICK
-
-AS41051: 
-    description: Freetransit Project (Openfactory GmbH)
-    import: AS41051:AS-ALL
-    export: AS202585:AS-NICK
