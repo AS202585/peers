@@ -183,3 +183,9 @@ AS25220:
     description: equada GmbH - GlobalNOC
     import: AS25220:AS-GLOBALNOC
     export: AS202585:AS-NICK
+
+AS216455:
+    description: Sting Alleman
+    import: AS216455:AS-STING
+    export: AS202585:AS-NICK
+
