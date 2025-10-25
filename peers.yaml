@@ -189,3 +189,7 @@ AS216455:
     import: AS216455:AS-STING
     export: AS202585:AS-NICK
 
+AS714: 
+    description: Apple
+    import: AS714:AS-APPLE 
+    export: AS202585:AS-NICK
