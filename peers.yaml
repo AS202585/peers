@@ -188,3 +188,8 @@ AS714:
     description: Apple
     import: AS714:AS-APPLE 
     export: AS202585:AS-NICK
+
+AS20940:
+    description: Akamai
+    import: AS20940:AS-AKAMAI
+    export: AS202585:AS-NICK
