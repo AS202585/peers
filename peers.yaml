@@ -83,11 +83,6 @@ AS24940:
     import: AS-HETZNER
     export: AS202585:AS-NICK
 
-AS15169:
-    description: Google
-    import: AS15169:AS-GOOGLE
-    export: AS202585:AS-NICK
-
 AS8283:
     description: Coloclue
     import: AS8283:AS-COLOCLUE
