@@ -188,3 +188,8 @@ AS20940:
     description: Akamai
     import: AS20940:AS-AKAMAI
     export: AS202585:AS-NICK
+
+AS209990:
+    description: Karmuz
+    import: AS209990:AS-KARMUZ
+    export: AS202585:AS-NICK
