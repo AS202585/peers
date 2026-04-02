@@ -32,7 +32,10 @@ AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
     export: AS202585:AS-NICK
-    ipv6_limit: 250000
+    not_with:
+      - 2001:7f8:1::a500:6939:1
+      - 2001:7f8:b7::a500:6939:1
+      - 2001:7f8:10f::1b1b:154
 
 AS49627:
     description: Speakup
