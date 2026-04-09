@@ -207,3 +207,8 @@ AS211713:
     description: Connectium
     import: AS211713:AS-CONNECTIUM
     export: AS202585:AS-NICK
+
+AS12859: 
+    description: BIT
+    import: AS12859:AS-BIT
+    export: AS202585:AS-NICK
