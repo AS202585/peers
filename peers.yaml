@@ -213,7 +213,7 @@ AS12859:
     import: AS12859:AS-BIT
     export: AS202585:AS-NICK
 
- AS31561:
+AS31561:
     description: Nine-IX RS
     import: AS31561:AS-MEMBERS 
     export: AS202585:AS-NICK
