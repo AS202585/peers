@@ -217,3 +217,8 @@ AS31561:
     description: Nine-IX RS
     import: AS31561:AS-MEMBERS 
     export: AS202585:AS-NICK
+
+AS213449:
+    description: Jann-Ole Wagenaar
+    import: AS213449:AS-JOW
+    export: AS202585:AS-NICK
