@@ -227,3 +227,6 @@ AS15169:
     description: Google
     import: AS15169:RADB::AS-GOOGLE  
     export: AS202585:AS-NICK
+    not_on:
+      - amsix
+      - frysix
