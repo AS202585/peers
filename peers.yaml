@@ -222,3 +222,8 @@ AS213449:
     description: Jann-Ole Wagenaar
     import: AS213449:AS-JOW
     export: AS202585:AS-NICK
+
+AS15169:
+    description: Google
+    import: AS15169:RADB::AS-GOOGLE  
+    export: AS202585:AS-NICK
