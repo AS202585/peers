@@ -236,3 +236,16 @@ AS203291:
     description: Frys-IX L3 Services
     import:  AS203291:AS-MEMBERS
     export: AS202585:AS-NICK
+
+AS215549:
+    description: ENS-IX route servers
+    import: AS215549:AS-ENSIX
+    export: AS202585:AS-NICK
+
+AS215248:
+    description: Bastiaan Brink
+    import: AS215248:AS-BASTIAANBRINK
+    export: AS202585:AS-NICK
+    only_with:
+      - 193.201.157.135
+      - 2001:7f8:160::21:5248:1
