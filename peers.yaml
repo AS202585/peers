@@ -231,3 +231,8 @@ AS15169:
     not_on:
       - amsix
       - frysix
+
+AS203291:
+    description: Frys-IX L3 Services
+    import:  AS203291:AS-MEMBERS
+    export: AS202585:AS-NICK
