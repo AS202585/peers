@@ -1,37 +1,37 @@
 AS56393:
     description: Frys-IX route servers
     import: AS-FRYS-IX-CONNECTED
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS41441:
     description: SPEED-IX route servers 
     import: AS-IX
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS56584:
     description: InterIX route servers
     import: AS56584:AS-INTERIX
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS212855:
     description: LUJE.net
     import: AS-LUJE
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS13335:
     description: Cloudflare
     import: AS13335:AS-CLOUDFLARE
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS31477:
     description: Duocast
     import: AS-DUOCAST
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_with:
       - 2001:7f8:1::a500:6939:1
       - 2001:7f8:b7::a500:6939:1
@@ -41,67 +41,67 @@ AS6939:
 AS49627:
     description: Speakup
     import: AS49627
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS212635:
     description: Jurrian van Iersel
     import: AS212635
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS1101:
     description: Not SURF
     import: AS1101:AS-NOTSURFNET
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS1104:
     description: NIKHEF
     import: AS1104:AS-NIKHEF
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS206238:
     description: Freedom Internet
     import: AS206238:AS-FREEDOM
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS32934:
     description: Facebook
     import: AS32934:AS-FACEBOOK
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS1103:
     description: SURF
     import: AS1103:AS-SURFNET
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS213028:
     description: DDW
     import: AS213028
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS32590:
     description: Valve
     import: AS32590
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS24940:
     description: Hetzner
     import: AS-HETZNER
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS8283:
     description: Coloclue
     import: AS8283:AS-COLOCLUE
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS16276:
     description: OVH
     import: AS16276
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS48635:
     description: CLDIN
     import: AS48635
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_on:
       - speedix
       - interix
@@ -109,12 +109,12 @@ AS48635:
 AS20847:
     description: Previder
     import: AS20847
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS51088:
     description: A2B IP B.V.
     import: AS51088:AS-A2B
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_on:
       - interix
       - amsix
@@ -122,44 +122,44 @@ AS51088:
 AS14061:
    description: DigitalOcean
    import: AS14061
-   export: AS202585:AS-NICK
+   export: AS202585:AS-RODEO
 
 AS211358:
    description: IPv6GO
    import: AS211358:AS-IPV6GO
-   export: AS202585:AS-NICK
+   export: AS202585:AS-RODEO
 
 AS201290:
    description: BlackGATE
    import: AS201290:AS-BLACKGATE
-   export: AS202585:AS-NICK
+   export: AS202585:AS-RODEO
 
 AS213052:
    description: Bram Wittendorp
    import: AS213052
-   export: AS202585:AS-NICK
+   export: AS202585:AS-RODEO
 
 AS214380: 
     description: Tim de Boer trading as tim427.net
     import: AS214380
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS215842:
     description: Erwin Paal
     import: AS215842
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS214757:
     description: Jakub Krsa
     import: AS214757
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_on:
       - interix
 
 AS215296:
     description: Raoul Brouns
     import: AS215296:AS-RAOULBROUNS
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_on:
       - speedix
       - interix
@@ -167,67 +167,67 @@ AS215296:
 AS211623:
     description: NAML B.V.
     import: AS211623:AS-NAML
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS215473:
     description: Elimalko Saado
     import: AS215473
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS25220:
     description: equada GmbH - GlobalNOC
     import: AS25220:AS-GLOBALNOC
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS216455:
     description: Sting Alleman
     import: AS216455:AS-STING
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS714: 
     description: Apple
     import: AS714:AS-APPLE 
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS20940:
     description: Akamai
     import: AS20940:AS-AKAMAI
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS209990:
     description: Karmuz
     import: AS209990:AS-KARMUZ
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS215737:
     description: Marnix Bouhuis
     import: AS215737:AS-BOUHUIS
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS211713:
     description: Connectium
     import: AS211713:AS-CONNECTIUM
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS12859: 
     description: BIT
     import: AS12859:AS-BIT
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS31561:
     description: Nine-IX RS
     import: AS31561:AS-MEMBERS 
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS213449:
     description: Jann-Ole Wagenaar
     import: AS213449:AS-JOW
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS15169:
     description: Google
     import: AS15169:RADB::AS-GOOGLE  
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     not_on:
       - amsix
       - frysix
@@ -235,17 +235,17 @@ AS15169:
 AS203291:
     description: Frys-IX L3 Services
     import:  AS203291:AS-MEMBERS
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS215549:
     description: ENS-IX route servers
     import: AS215549:AS-ENSIX
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
 
 AS215248:
     description: Bastiaan Brink
     import: AS215248:AS-BASTIAANBRINK
-    export: AS202585:AS-NICK
+    export: AS202585:AS-RODEO
     only_with:
       - 193.201.157.135
       - 2001:7f8:160::21:5248:1
