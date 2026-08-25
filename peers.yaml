@@ -249,3 +249,8 @@ AS215248:
     only_with:
       - 193.201.157.135
       - 2001:7f8:160::21:5248:1
+
+AS211358:
+    description: Patrizio Palumbo
+    import: AS211358:AS-IPV6GO 
+    export: AS202585:AS-RODEO
