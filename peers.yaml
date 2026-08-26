@@ -254,3 +254,8 @@ AS211358:
     description: Patrizio Palumbo
     import: AS211358:AS-IPV6GO 
     export: AS202585:AS-RODEO
+
+AS219079:
+    description: Eko Andri Prasetyo
+    import: AS219079:AS-ALL
+    export: AS202585:AS-RODEO
