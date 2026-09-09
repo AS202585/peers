@@ -264,3 +264,8 @@ AS218836:
     description: Nicky Hendriks trading as Expeditioner
     import: AS218836:AS-EXPED 
     export: AS202585:AS-RODEO
+
+AS218836:
+    description: Bryan Barbolina
+    import: AS218772:AS-BARBONETWORKS 
+    export: AS202585:AS-RODEO
