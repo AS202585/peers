@@ -254,3 +254,13 @@ AS211358:
     description: Patrizio Palumbo
     import: AS211358:AS-IPV6GO 
     export: AS202585:AS-RODEO
+
+AS219265:
+    description: Tjerk Jan Vonk
+    import: AS219265:AS-FROP
+    export: AS202585:AS-RODEO
+
+AS218836:
+    description: Nicky Hendriks trading as Expeditioner
+    import: RIPE::AS218836:AS-EXPED 
+    export: AS202585:AS-RODEO
