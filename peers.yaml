@@ -267,5 +267,5 @@ AS219265:
 
 AS218836:
     description: Nicky Hendriks trading as Expeditioner
-    import: RIPE::AS218836:AS-EXPED 
+    import: AS218836:AS-EXPED 
     export: AS202585:AS-RODEO
