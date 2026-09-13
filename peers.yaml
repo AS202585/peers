@@ -269,9 +269,3 @@ AS218836:
     description: Bryan Barbolina
     import: AS218772:AS-BARBONETWORKS 
     export: AS202585:AS-RODEO
-
-AS218772:
-    description: Bryan Barbolina
-    import: AS218772:AS-BARBONETWORKS 
-    export: AS202585:AS-RODEO
-
