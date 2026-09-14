@@ -2,6 +2,9 @@ AS56393:
     description: Frys-IX route servers
     import: AS-FRYS-IX-CONNECTED
     export: AS202585:AS-RODEO
+    not_with:
+      - 185.1.161.254
+      - 2001:7f8:10f::dc49:3
 
 AS41441:
     description: SPEED-IX route servers 
