@@ -228,6 +228,9 @@ AS15169:
     not_with:
       - 185.1.160.180
       - 185.1.160.220
+    # Google's RADB as-set covers only ~17 v6 prefixes of the ~300 they announce;
+    # everything else is ROA-valid, so accept on ROA as well (kees2 filter.j2).
+    accept_roa_valid: true
 
 AS203291:
     description: Frys-IX L3 Services
