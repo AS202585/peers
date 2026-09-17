@@ -223,7 +223,11 @@ AS15169:
     export: AS202585:AS-RODEO
     not_on:
       - amsix
-      - frysix
+    # Frys-IX: Google only peers with us over IPv6 there (they dial from both
+    # ports on v6 only), so skip their two IPv4 addresses.
+    not_with:
+      - 185.1.160.180
+      - 185.1.160.220
 
 AS203291:
     description: Frys-IX L3 Services
