@@ -1,3 +1,7 @@
+# bgp.rodeo peering policy (2026-09-17): a route is accepted from a peer when its
+# prefix is in the peer's IRR as-set OR its (prefix, origin) has a VALID ROA.
+# RPKI-invalid is always rejected. Per-peer opt-out: accept_roa_valid: false.
+
 AS56393:
     description: Frys-IX route servers
     import: AS-FRYS-IX-CONNECTED
@@ -229,8 +233,8 @@ AS15169:
       - 185.1.160.180
       - 185.1.160.220
     # Google's RADB as-set covers only ~17 v6 prefixes of the ~300 they announce;
-    # everything else is ROA-valid, so accept on ROA as well (kees2 filter.j2).
-    accept_roa_valid: true
+    # the rest is accepted on ROA - since 2026-09-17 that is the default for every
+    # peer (kees2 filter.j2); use `accept_roa_valid: false` to opt a peer out.
 
 AS203291:
     description: Frys-IX L3 Services
