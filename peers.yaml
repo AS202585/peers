@@ -238,7 +238,7 @@ AS15169:
 
 AS8075:
     description: Microsoft
-    import: AS8075:AS-MICROSOFT
+    import: AS-MICROSOFT
     export: AS202585:AS-RODEO
     # Peering request sent 2026-09-17 (peering@microsoft.com); bilateral at AMS-IX only.
 
