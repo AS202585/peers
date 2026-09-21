@@ -281,12 +281,6 @@ AS203291:
     description: Frys-IX L3 Services
     import:  AS203291:AS-MEMBERS
     export: AS202585:AS-RODEO
-    # NOT a peer cone but a near-full-table L3 feed (127k v4 / 62k v6 ROA-valid
-    # prefixes). It is at ENS-IX at local_pref 310, above every Amsterdam IX, so
-    # ROA acceptance made it the best path for ~230k prefixes and hairpinned that
-    # traffic AMS -> vlan1337 -> ENS-IX (seen 2026-09-17). IRR-only until the
-    # ENS-IX preference is reconsidered.
-    accept_roa_valid: false
 
 AS215549:
     description: ENS-IX route servers
