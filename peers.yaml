@@ -309,6 +309,7 @@ AS219265:
     description: Tjerk Jan Vonk
     import: AS219265:AS-FROP
     export: AS202585:AS-RODEO
+    blackhole_accept: true   # RTBH (65535:666) on more-specifics of AS-FROP space, requested 2026-09-22
 
 AS218836:
     description: Nicky Hendriks trading as Expeditioner
