@@ -256,21 +256,6 @@ AS213449:
     import: AS213449:AS-JOW
     export: AS202585:AS-RODEO
 
-AS15169:
-    description: Google
-    import: AS15169:RADB::AS-GOOGLE  
-    export: AS202585:AS-RODEO
-    not_on:
-      - amsix
-    # Frys-IX: Google only peers with us over IPv6 there (they dial from both
-    # ports on v6 only), so skip their two IPv4 addresses.
-    not_with:
-      - 185.1.160.180
-      - 185.1.160.220
-    # Google's RADB as-set covers only ~17 v6 prefixes of the ~300 they announce;
-    # the rest is accepted on ROA - since 2026-09-17 that is the default for every
-    # peer (kees2 filter.j2); use `accept_roa_valid: false` to opt a peer out.
-
 AS8075:
     description: Microsoft
     import: AS-MICROSOFT
