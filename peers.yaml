@@ -305,3 +305,8 @@ AS218772:
     description: Bryan Barbolina
     import: AS218772:AS-BARBONETWORKS 
     export: AS202585:AS-RODEO
+
+AS15169:
+    description: Google
+    import: AS15169:RADB::AS-GOOGLE  
+    export: AS202585:AS-RODEO
