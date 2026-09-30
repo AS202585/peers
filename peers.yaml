@@ -310,3 +310,8 @@ AS15169:
     description: Google
     import: AS15169:RADB::AS-GOOGLE  
     export: AS202585:AS-RODEO
+
+AS50266:
+    description: Odido Netherlands
+    import: AS50266:AS-PROJECTJAGUAR
+    export: AS202585:AS-RODEO
