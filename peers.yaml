@@ -178,7 +178,7 @@ AS215842:
     import: AS215842
     export: AS202585:AS-RODEO
     not_on:
-      - ens-ix
+      - ensix
 
 AS214757:
     description: Jakub Krsa
