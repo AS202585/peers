@@ -151,6 +151,13 @@ AS51088:
       - interix
       - amsix
 
+AS14061:
+   description: DigitalOcean
+   import: AS14061:AS-14061
+   export: AS202585:AS-RODEO
+   not_on:
+      - frysix # DOs Frys-IX port is down
+
 AS201290:
    description: BlackGATE
    import: AS201290:AS-BLACKGATE
