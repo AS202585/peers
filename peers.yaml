@@ -151,11 +151,6 @@ AS51088:
       - interix
       - amsix
 
-AS14061:
-   description: DigitalOcean
-   import: AS14061
-   export: AS202585:AS-RODEO
-
 AS201290:
    description: BlackGATE
    import: AS201290:AS-BLACKGATE
