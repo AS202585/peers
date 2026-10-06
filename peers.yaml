@@ -177,8 +177,6 @@ AS215842:
     description: Erwin Paal
     import: AS215842
     export: AS202585:AS-RODEO
-    not_on:
-      - ensix
 
 AS214757:
     description: Jakub Krsa
