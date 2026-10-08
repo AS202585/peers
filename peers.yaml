@@ -316,3 +316,9 @@ AS50266:
     import: AS50266:AS-PROJECTJAGUAR
     export: AS202585:AS-RODEO
 
+AS205079:
+    description: Mans Ziesel
+    import: AS205079:AS-MANS
+    export: AS202585:AS-RODEO
+    not_on:
+      - frysix
