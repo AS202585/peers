@@ -30,6 +30,11 @@ AS56584:
       - 185.1.14.172
       - 2001:7f8:12e::5:6584
 
+AS218511:
+    description: Clue-IX route servers
+    import: AS218511:AS-CLUE-IX
+    export: AS202585:AS-RODEO
+
 AS212855:
     description: LUJE.net
     import: AS-LUJE
