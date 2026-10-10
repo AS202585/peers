@@ -11,7 +11,7 @@ import sys
 
 import yaml
 
-IX_KEYS = {"amsix", "frysix", "speedix", "interix", "interix_old", "nineix", "ensix"}
+IX_KEYS = {"amsix", "frysix", "speedix", "interix", "interix_old", "nineix", "clueix", "ensix"}
 ROUTERS = {"rtr1.as202585.net", "ens2rtr01.as202585.net"}
 REQUIRED = {"description", "import", "export"}
 KNOWN = REQUIRED | {
