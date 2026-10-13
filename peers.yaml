@@ -327,8 +327,3 @@ AS205079:
     export: AS202585:AS-RODEO
     not_on:
       - frysix
-
-AS218506:
-    description: SIEKMAN-AS
-    import: AS218506:AS-SIEKMAN
-    export: AS202585:AS-RODEO
